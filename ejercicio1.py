@@ -10,9 +10,9 @@ def devolver_coreeo(usuario,dominio):
     return usuario +"@" +dominio
     
 #Inicializar datos 
-introducir_usuario = str(input('Introducir el nombre de usuario :'))
-introducir_dominio = str(input('Introducir su dominio de correo '))
+introducir_usuario = input('Introducir el nombre de usuario :')
+introducir_dominio = input('Introducir su dominio de correo ')
 
 resultado = devolver_coreeo(introducir_usuario,introducir_dominio)
 
-print(f'Su nombre es "{introducir_usuario}" y su dominio es "{introducir_dominio}" y su correo electronico es {resultado}') 
+print(f'su correo electronico es {resultado}') 
