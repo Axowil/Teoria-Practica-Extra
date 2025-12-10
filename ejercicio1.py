@@ -6,13 +6,13 @@ el dominio y usando el caracter @ en medio. Como restricción no podrá usar el 
 para concatenar strings. Si el usuario ingresa como nombre "alumno" y como dominio "pweb1", deberá imprimir: "alumno@pweb1".
 """
 #definir una funcion para devolver correo
-def devolver_coreeo(usuario,dominio):
+def devolver_correo(usuario,dominio):
     return usuario +"@" +dominio
     
 #Inicializar datos 
 introducir_usuario = input('Introducir el nombre de usuario :')
 introducir_dominio = input('Introducir su dominio de correo ')
 
-resultado = devolver_coreeo(introducir_usuario,introducir_dominio)
+resultado = devolver_correo(introducir_usuario,introducir_dominio)
 
 print(f'su correo electronico es {resultado}') 
